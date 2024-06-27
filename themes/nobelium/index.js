@@ -74,7 +74,7 @@ const LayoutBase = props => {
                         {topSlot}
                         {children}
                     </Transition>
-                    <div>
+                    {/* <div>
                       <iframe
                         allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
                         frameborder="0"
@@ -84,7 +84,7 @@ const LayoutBase = props => {
                         src="https://embed.music.apple.com/cn/playlist/favorite-songs/pl.u-YGUjm48od"
                       >
                       </iframe>
-                    </div>
+                    </div> */}
                 </main>
 
                 {/* 页脚 */}
