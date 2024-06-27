@@ -88,7 +88,7 @@ const LayoutBase = props => {
                 {/* 左下悬浮 */}
                 <div className="bottom-4 fixed justify-end z-40">
                     <Live2D />
-                    <div>
+                    {/* <div>
                       <iframe
                         frameborder="no"
                         border="0"
@@ -97,7 +97,7 @@ const LayoutBase = props => {
                         src="//music.163.com/outchain/player?type=0&id=2032483048&auto=1&height=430"
                       >
                       </iframe>
-                    </div>
+                    </div> */}
                 </div>
 
                 {/* 搜索框 */}
