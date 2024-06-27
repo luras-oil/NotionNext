@@ -55,6 +55,7 @@ const LayoutBase = props => {
 
                 {/* 顶部导航栏 */}
                 <Nav {...props} />
+
                 {/* 主区 */}
                 <main id='out-wrapper' className={`relative m-auto flex-grow w-full transition-all ${!fullWidth ? 'max-w-2xl px-4' : 'px-4 md:px-24'}`}>
 
@@ -73,7 +74,7 @@ const LayoutBase = props => {
                         {topSlot}
                         {children}
                     </Transition>
-                    <div>
+                    {/* <div>
                       <iframe
                         allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
                         frameborder="0"
@@ -83,7 +84,7 @@ const LayoutBase = props => {
                         src="https://embed.music.apple.com/cn/playlist/favorite-songs/pl.u-YGUjm48od"
                       >
                       </iframe>
-                    </div>
+                    </div> */}
                 </main>
 
                 {/* 页脚 */}
