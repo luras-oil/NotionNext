@@ -75,13 +75,14 @@ const LayoutBase = props => {
                         {children}
                     </Transition>
                     <div>
+                      
                       <iframe
-                        allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
-                        frameborder="0"
+                        frameborder="no"
+                        border="0"
+                        width="330"
                         height="450"
-                        style={{width:"100%",maxWidth:"660px",overflow:"hidden",borderRadius:"10px"}}
-                        sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
-                        src="https://embed.music.apple.com/cn/playlist/favorite-songs/pl.u-YGUjm48od"
+                        src="//music.163.com/outchain/player?type=0&id=2032483048&auto=1&height=430"
+                        allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
                       >
                       </iframe>
                     </div>
