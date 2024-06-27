@@ -77,6 +77,16 @@ const Nav = props => {
             </p>
           )}
         </div>
+        <div>      
+          <iframe
+            frameborder="no"
+            border="0"
+            width="298"
+            height="52"
+            src="//music.163.com/outchain/player?type=0&id=2032483048&auto=1&height=32"
+          >
+          </iframe>
+        </div>
         <NavBar {...props} />
       </div>
     </>

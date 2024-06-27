@@ -74,18 +74,7 @@ const LayoutBase = props => {
                         {topSlot}
                         {children}
                     </Transition>
-                    <div>
-                      
-                      <iframe
-                        frameborder="no"
-                        border="0"
-                        width="330"
-                        height="450"
-                        src="//music.163.com/outchain/player?type=0&id=2032483048&auto=1&height=430"
-                        allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
-                      >
-                      </iframe>
-                    </div>
+
                 </main>
 
                 {/* 页脚 */}
