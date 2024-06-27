@@ -86,7 +86,7 @@ const LayoutBase = props => {
                 </div>
 
                 {/* 左下悬浮 */}
-                <div>
+                <div className="bottom-4 fixed justify-end z-40">
                     <Live2D />
                     <div>
                       <iframe
