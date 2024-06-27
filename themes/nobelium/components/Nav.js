@@ -81,9 +81,9 @@ const Nav = props => {
           <iframe
             frameborder="no"
             border="0"
-            width="298"
-            height="52"
-            src="//music.163.com/outchain/player?type=0&id=2032483048&auto=1&height=32"
+            width="330"
+            height="110"
+            src="//music.163.com/outchain/player?type=0&id=2032483048&auto=1&height=90"
           >
           </iframe>
         </div>
